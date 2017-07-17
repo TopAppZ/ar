@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 611c25e7944201345a3b899666260161
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone003
+    100002: Bone003(mirrored)
+    100004: Bone004
+    100006: Bone004(mirrored)
+    100008: Bone006
+    100010: Bone006(mirrored)
+    100012: Bone007
+    100014: Bone007(mirrored)
+    100016: Bone008
+    100018: Bone008(mirrored)
+    100020: Bone011
+    100022: Bone011(mirrored)
+    100024: Bone012
+    100026: Bone012(mirrored)
+    100028: Bone013
+    100030: Bone013(mirrored)
+    100032: Bone014
+    100034: Bone014(mirrored)
+    100036: Bone015
+    100038: Bone015(mirrored)
+    100040: Bone020
+    100042: Bone024
+    100044: Bone028
+    100046: Bone030
+    100048: Bone031
+    100050: Bone032
+    100052: Bone036
+    100054: Bone037
+    100056: Bone038
+    100058: Bone039
+    100060: Bone040
+    100062: Bone041
+    100064: Bone042
+    100066: Bone043
+    100068: Bone044
+    100070: Bone044(mirrored)
+    100072: Bone045
+    100074: Circle001
+    100076: Circle002
+    100078: Ear_L(mirrored)
+    100080: Ear_R
+    100082: GeneralController
+    100084: Head
+    100086: HeadController
+    100088: Hoof_LController
+    100090: Hoof_RController
+    100092: HoofBack_LController
+    100094: HoofBack_RController
+    100096: IK Chain010
+    100098: IK Chain012
+    100100: IK Chain013
+    100102: IK Chain014
+    100104: IK Chain015
+    100106: IK Chain016
+    100108: IK Chain017
+    100110: IK Chain018
+    100112: IK Chain019
+    100114: IK Chain020
+    100116: IK Chain023
+    100118: Mouth_Lower
+    100120: Mouth_Upper
+    100122: Neck
+    100124: NeckController
+    100126: Pelvis_R
+    100128: Pelvis_R(mirrored)
+    100130: Pelvis_R(mirrored)Controller
+    100132: Pelvis_RController
+    100134: Rectangle001
+    100136: RibCage
+    100138: RibCageController
+    100140: Scapula_R
+    100142: Scapula_R(mirrored)
+    100144: Scapula_R(mirrored)Controller
+    100146: Scapula_RController
+    100148: Spine
+    100150: SpineController
+    100152: Tail
+    100154: Wildboar
+    100156: //RootNode
+    400000: Bone003
+    400002: Bone003(mirrored)
+    400004: Bone004
+    400006: Bone004(mirrored)
+    400008: Bone006
+    400010: Bone006(mirrored)
+    400012: Bone007
+    400014: Bone007(mirrored)
+    400016: Bone008
+    400018: Bone008(mirrored)
+    400020: Bone011
+    400022: Bone011(mirrored)
+    400024: Bone012
+    400026: Bone012(mirrored)
+    400028: Bone013
+    400030: Bone013(mirrored)
+    400032: Bone014
+    400034: Bone014(mirrored)
+    400036: Bone015
+    400038: Bone015(mirrored)
+    400040: Bone020
+    400042: Bone024
+    400044: Bone028
+    400046: Bone030
+    400048: Bone031
+    400050: Bone032
+    400052: Bone036
+    400054: Bone037
+    400056: Bone038
+    400058: Bone039
+    400060: Bone040
+    400062: Bone041
+    400064: Bone042
+    400066: Bone043
+    400068: Bone044
+    400070: Bone044(mirrored)
+    400072: Bone045
+    400074: Circle001
+    400076: Circle002
+    400078: Ear_L(mirrored)
+    400080: Ear_R
+    400082: GeneralController
+    400084: Head
+    400086: HeadController
+    400088: Hoof_LController
+    400090: Hoof_RController
+    400092: HoofBack_LController
+    400094: HoofBack_RController
+    400096: IK Chain010
+    400098: IK Chain012
+    400100: IK Chain013
+    400102: IK Chain014
+    400104: IK Chain015
+    400106: IK Chain016
+    400108: IK Chain017
+    400110: IK Chain018
+    400112: IK Chain019
+    400114: IK Chain020
+    400116: IK Chain023
+    400118: Mouth_Lower
+    400120: Mouth_Upper
+    400122: Neck
+    400124: NeckController
+    400126: Pelvis_R
+    400128: Pelvis_R(mirrored)
+    400130: Pelvis_R(mirrored)Controller
+    400132: Pelvis_RController
+    400134: Rectangle001
+    400136: RibCage
+    400138: RibCageController
+    400140: Scapula_R
+    400142: Scapula_R(mirrored)
+    400144: Scapula_R(mirrored)Controller
+    400146: Scapula_RController
+    400148: Spine
+    400150: SpineController
+    400152: Tail
+    400154: //RootNode
+    400156: Wildboar
+    4300000: Wildboar
+    7400000: wildboar_walking
+    7400002: wildboar_running
+    7400004: wildboar_galloping
+    7400006: wildboar_backward
+    7400008: wildboar_attack
+    7400010: wildboar_attack2
+    7400012: wildboar_roar
+    7400014: wildboar_lay
+    7400016: wildboar_up
+    7400018: wildboar_eating
+    7400020: wildboar_hited
+    7400022: wildboar_death
+    7400024: wildboar_idle
+    7400026: wildboar_jumping
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Wildboar
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: wildboar_walking
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_running
+      takeName: Take 001
+      firstFrame: 59
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_galloping
+      takeName: Take 001
+      firstFrame: 77
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_backward
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_attack
+      takeName: Take 001
+      firstFrame: 131
+      lastFrame: 153
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_attack2
+      takeName: Take 001
+      firstFrame: 153
+      lastFrame: 197
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_roar
+      takeName: Take 001
+      firstFrame: 197
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_lay
+      takeName: Take 001
+      firstFrame: 265
+      lastFrame: 301
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_up
+      takeName: Take 001
+      firstFrame: 301
+      lastFrame: 337
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_eating
+      takeName: Take 001
+      firstFrame: 337
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_hited
+      takeName: Take 001
+      firstFrame: 438
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_death
+      takeName: Take 001
+      firstFrame: 470
+      lastFrame: 516
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_idle
+      takeName: Take 001
+      firstFrame: 519
+      lastFrame: 579
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wildboar_jumping
+      takeName: Take 001
+      firstFrame: 582
+      lastFrame: 614
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
